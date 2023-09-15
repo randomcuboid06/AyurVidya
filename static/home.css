@@ -1,0 +1,37 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 20px;
+    background-color: #f3c391;
+    border-bottom: solid #3b4453;
+    box-shadow: 0 2px 20px #8c7c64;
+}
+
+.header ul{
+    display: flex;
+    align-items: center;
+}
+
+.header ul li:hover{
+    color: #E83157;
+}
+.nav ul li{
+    padding:0 15px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.favicons{
+    flex: 0.1;
+}
+
+.favicons ul{
+    display: flex;
+    justify-content: end;
+}
+
+.favicons ul li{
+    padding:0 15px;
+}

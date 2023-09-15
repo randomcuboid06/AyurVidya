@@ -1,0 +1,162 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    color: #384151;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.logo img{
+    width:100px;
+}
+
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 20px;
+    background-color: #f3c391;
+    border-bottom: solid #3b4453;
+    box-shadow: 0 2px 20px #8c7c64;
+}
+
+.header ul{
+    display: flex;
+    align-items: center;
+}
+
+.header ul li:hover{
+    color: #E83157;
+}
+
+.nav ul li{
+    padding:0 15px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.favicons{
+    flex: 0.1;
+}
+
+.favicons ul{
+    display: flex;
+    justify-content: end;
+}
+
+.favicons ul li{
+    padding:0 15px;
+}
+.front{
+    padding: 15px;
+}
+
+.main{
+    display:flex;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.main div:nth-child(2){
+    flex:1;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.main div:nth-child(1){
+    padding-top: 40px;
+    flex: 1;
+    font-size: 30px;
+}
+
+.main div:nth-child(1) p{
+    font-size: 15px;
+    padding: 20px 0;
+}
+
+.orangebtn{
+    cursor: pointer;
+    margin-top: 20px;
+    width:150px;
+    font-weight: bold;
+    color:#384151;
+    background-color: bisque;
+    line-height: 50px;
+    border-radius: 5px;
+    border:1px solid bisque;
+}
+
+.orangebtn:hover{
+    
+    color:bisque;
+    background-color: #384151;
+    border:1px solid #384151;
+}
+
+.orangebtn:hover i{
+    
+    color:bisque;
+    background-color: #384151;
+    border:1px solid #384151;
+}
+.items{
+    margin: 70px 90px;
+    padding: 50px 0;
+
+    width: 1200px;
+    background-color: bisque;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.item{
+    width:250px;
+    padding: 30px;
+    text-align: center;
+}
+
+.item div{
+    height:150px;
+}
+
+.item img{
+    width:150px;
+    margin-bottom: 15px;
+}
+
+.item p{
+    font-size: 12px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.whitebtn{
+    cursor: pointer;
+    width:120px;
+    margin:10px;
+    padding:10px;
+    line-height: 40px;
+    font-weight: bold;
+    background-color: #384151;
+    color: bisque;
+}
+.footer{
+    padding: 60px 0;
+    background-color: #d5a474;
+    font-weight: bold;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    justify-content: space-around;
+    
+}
